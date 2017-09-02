@@ -33,7 +33,7 @@ class Customer extends \yii\db\ActiveRecord {
             [['c_name', 'c_address'], 'string'],
             ['c_email', 'email'],
             [['c_name',], 'match',
-                'pattern' => '/^[a-zA-Z\s]+$/', 'message' => "Please enter valid name"],
+                'pattern' => '/^[a-zA-Z\s]+$/', 'message' => "Please enter  valid name"],
             [[ 'c_zip', 'c_telephone'], 'integer'],
         ];
     }
